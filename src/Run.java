@@ -1,7 +1,12 @@
 import algorithm.easy.ReverseInteger;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+
 public class Run {
     public static void main(String[] args) {
-        System.out.println(new ReverseInteger().reverse(-1235));
+        ExecutorService threadPoolExecutor = Executors.newSingleThreadExecutor();
+
     }
 }
